@@ -7,7 +7,7 @@ Prime number control application in Java. For beginners and those who want to ha
         int i; //i is the number that we will get from the user.
         boolean isPrime = true; //default is prime value is true. If i is not prime, it will turn to false.
 
-        System.out.print("\nPlease enter a number to calculate: ");
+        System.out.print("Please enter a number to calculate: ");
         Scanner input = new Scanner(System.in); //defined the scanner to take value from the user.
         i = input.nextInt(); //we equalized the number we received from the user to the value of i.
 
